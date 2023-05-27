@@ -1,0 +1,102 @@
+    body {
+        font-family: "Poppins", sans-serif;
+        margin: 50px 50px 0 50px;
+        background-color: #faf9f6;
+        display: flex;
+        flex-direction: column;
+        min-height: 95vh;
+    }
+    
+    .main {
+        flex: 1;
+    }
+    
+    h1 {
+        font-size: 5rem;
+        margin-top: 100px;
+    }
+    
+    h1 span {
+        color: midnightblue;
+    }
+    
+    footer {
+        text-align: right;
+        color: midnightblue;
+        clear: right;
+    }
+    
+    .card {
+        display: inline-block;
+        font-size: 20px;
+        padding: 50px;
+        margin-top: 40px;
+    }
+    
+    .left {
+        float: left;
+    }
+    
+    .right {
+        float: right;
+    }
+    
+    .logo {
+        float: left;
+    }
+    
+    .title-image {
+        float: left;
+        margin-right: 45px;
+    }
+    /* media query section */
+    
+    @media(max-width: 680px) {
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 50px 50px 0 50px;
+            background-color: #faf9f6;
+            display: flex;
+            flex-direction: column;
+            min-height: 45vh;
+        }
+        .main {
+            flex: 1;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-top: 50px;
+        }
+        h1 span {
+            color: orangered;
+        }
+        footer {
+            text-align: center;
+            color: midnightblue;
+            clear: right;
+        }
+        .card {
+            display: block;
+            font-size: 10px;
+            padding: 15px;
+            margin-top: 20px;
+            width: 100px;
+            text-align: justify;
+        }
+        .left {
+            float: center;
+        }
+        .right {
+            float: center;
+        }
+        .logo {
+            float: center;
+        }
+        .title-image {
+            float: center;
+            /* margin-right: 45px; */
+        }
+        .card img {
+            object-fit: cover;
+        }
+    }
